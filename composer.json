@@ -1,0 +1,34 @@
+{
+    // название пакета
+    "name": "miken912/bomlist",
+
+    // тип пакета
+    "type": "yii2-extension",
+
+    "description": "Test develop extension Yii framework",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/miken912/bomlist"
+    },
+    "authors": [
+        {
+            "name": "MIKEN912",
+            "email": "neugodnikov.m@gmail.com"
+        }
+    ],
+
+    // зависимости пакета
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "phpoffice/phpword": "v0.14.*"
+        "phpoffice/phpspreadsheet":"1.5.*"
+    },
+
+    // указание автозагрузчика классов
+    "autoload": {
+        "psr-4": {
+            "miken912\\bomlist\\": ""
+        }
+    }
+}
